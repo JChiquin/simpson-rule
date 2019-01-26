@@ -18,7 +18,7 @@ def simpson(mean, standard_deviation, n, b, a=float('-inf')):
         flagA = True
         if b < 0:
             b=-b
-            flag = True
+            flagB = True
 
     h=(b-a)/n
     value = normal_distribution(a,mean,standard_deviation) #x0
